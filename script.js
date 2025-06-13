@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       const li = document.createElement("li");
       li.textContent = taskText;
-      
+
       const button = document.createElement("button");
 
-      button.className = "remove-btn";
+      button.classList.add = "remove-btn";
       button.textContent = "Remove";
       button.onclick = function () {
           taskList.removeChild(li);
