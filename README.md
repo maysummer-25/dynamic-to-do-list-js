@@ -45,7 +45,7 @@ Users can:
 
   - Click the "Add Task" button or press Enter
 
-- A new list item (<li>) is created and added to the task list (<ul>).
+- A new list item (li) is created and added to the task list (ul).
 
 - Each task comes with a Remove button which, when clicked, deletes the task from the list
 
